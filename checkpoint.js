@@ -18,7 +18,7 @@ function microondas() {
   };
 }
 
-let meuMicroondas = new microondas(); //Criando um novo Microondas
+const meuMicroondas = new microondas(); //Criando um novo Microondas
 
 //Testes
 meuMicroondas.ligar("pipoca", 1); // tempo insuficiente
